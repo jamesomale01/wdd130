@@ -133,7 +133,24 @@ section h2 {
     height: auto;
 }
 
+.gallery {
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.gallery img {
+    width: 120px;
+    height: 80%;
+}
+
+figcaption {
+    text-align: center;
+}
+
 .socialmedia img {
     width: 30px;
     margin-right: 10px;
+    float: right;
 }
